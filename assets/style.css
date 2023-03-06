@@ -40,6 +40,7 @@ nav{
     width: 500px;
     height: 150px;
     background-color: rgb(243, 89, 204);
+    border: 1px dashed black;
 }
 
 .row{
@@ -102,4 +103,40 @@ nav{
     width: 110px;
     background-color: aqua;
     border: 1px dashed white;
+}
+
+.border{
+    border: 1px solid grey;
+}
+
+.last-row{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items:flex-end;
+    background-color: black;
+}
+
+.lightgreen-box{
+    display: flex;
+    width: 600px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.bottom-btn{
+    width: 60px;
+    height: 20px;
+    background-color: palevioletred;
+    border: 1px dashed black;
+}
+
+.logo{
+    padding-left: 10px;
+}
+
+.btn1{
+    padding-left: 5px;
 }
