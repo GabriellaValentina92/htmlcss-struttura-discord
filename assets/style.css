@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+nav{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(88, 241, 247);
+}
+
+.menu{
+    display: flex;
+    width: 800px;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(250, 222, 61);
+    margin: 0 auto;
+    border: 1px dashed black;
+}
+
+.btn{
+    height: 20px;
+}
+
+.header-row{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
+}
+
+.starter-box{
+    width: 500px;
+    height: 150px;
+    background-color: rgb(243, 89, 204);
+}
