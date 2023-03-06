@@ -62,3 +62,20 @@ nav{
     width: 200px;
     border: 1px dashed black;
 }
+
+.bottom-row{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-box{
+    width: 600px;
+    height: 500px;
+    background-color: green;
+}
+
+.row:nth-child(even){
+    background-color: lightgrey;
+}
