@@ -41,3 +41,24 @@ nav{
     height: 150px;
     background-color: rgb(243, 89, 204);
 }
+
+.row{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-blue{
+    background-color: cyan;
+    height: 200px;
+    width: 400px;
+    border: 1px dashed black;
+}
+
+.box-pink{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    border: 1px dashed black;
+}
