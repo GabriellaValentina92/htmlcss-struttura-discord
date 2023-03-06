@@ -74,8 +74,32 @@ nav{
     width: 600px;
     height: 500px;
     background-color: green;
+    border: 1px dashed black;
 }
 
 .row:nth-child(even){
     background-color: lightgrey;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.column-pink{
+    height: 250px;
+    width: 160px;
+    background-color: palevioletred;
+    border: 1px dashed black;
+}
+
+.column-lightblu{
+    height: 250px;
+    width: 110px;
+    background-color: aqua;
+    border: 1px dashed white;
 }
