@@ -24,7 +24,26 @@ nav{
 }
 
 .btn{
-    height: 20px;
+    height: 30px;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    padding-top: 5px;
+    padding-right: 120px;
+}
+
+.login{
+    width: 150px;
+    padding-top: 5px;
+    padding-left: 100px;
+}
+
+.link{
+    width: 500px;
+    padding-top: 5px;
 }
 
 .header-row{
